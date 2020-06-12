@@ -1,0 +1,6 @@
+./*/.ipynb_checkpoints/*
+./*/check_imports_from_package.ipynb
+__pycache__/
+
+
+#http://gitready.com/beginner/2009/01/19/ignoring-files.html
