@@ -17,7 +17,7 @@ The package also comes with unittests and is well-documented via docstrings.
 If you are interested in installing `gp_regression`, please follow the detailed instructions below.
 
 
-### Installation of gp_regression
+## Installation of gp_regression
 - clone repo
 - create conda env
 - use dependencies from yaml (what abt jupyter)
