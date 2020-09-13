@@ -4,20 +4,20 @@ Here, you find supplementary material accomapanying the blog post [*Hyperparamet
 
 Namely, we provide:
 - the Jupyter notebook `notebook.ipynb` that the post is based on.
-- source code for the python package `gp_regression`—a simple object-oriented implementation
+- source code for the python package ```gp_regression```—a simple object-oriented implementation
 of Gaussian Process regression that is used throughout the post.
 
-The package provides functionality for:
- - hyperparameter tuning
- - sampling from the prior or posterior distribution
- - performing predictions for unknown outputs
- - as well as several methods for visualization purposes
+  The package provides functionality for:
+  - hyperparameter tuning
+  - sampling from the prior or posterior distribution
+  - performing predictions for unknown outputs
+  - as well as several methods for visualization purposes
 
-The package also comes with unittests and is well-documented via docstrings.
-If you are interested in installing `gp_regression`, please follow the detailed instructions below.
+  The package also comes with unittests and is well-documented via docstrings. <br>
+  If you are interested in installing ```gp_regression```, please follow the detailed instructions below.
 
 
-## Installation of the python package `gp_regression`
+## Installation of the python package ```gp_regression```
 STEP 0: I recommend to create and activate a virtual environment for Python 3. <br>
 Then follow the steps below by running the highlighted commands from a terminal.
 
