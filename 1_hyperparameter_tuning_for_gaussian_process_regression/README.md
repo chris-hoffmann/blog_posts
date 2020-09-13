@@ -39,7 +39,7 @@ STEP 2: Download files and build the ```gp_regression``` package locally
 > install the required libraries (Numpy, Scipy, Matplotlib): <br>
 > `pip install -r requirements.txt`
 
-> build the local package <br>
+> build the local package: <br>
 > `pip install -e .`
 
 STEP 3: Verify the installation
