@@ -17,7 +17,7 @@ class Test_GP_Class(unittest.TestCase):
         y = np.array([0,-0.5,1,0.7,0,1,0.7])
         X_star = np.linspace(-6, 6, 101)
         
-        gauss_kernel_large_var = kernel_factory('gaussian', variance=3)
+        gauss_kernel_large_var = kernel_factory('gaussian', length_scale=3)
         self.gpr_model_large_var = GP(X, y, X_star, metric='seuclidean', kernel=gauss_kernel_large_var, noise=0.2)
    
    
@@ -39,8 +39,8 @@ class Test_GP_Class(unittest.TestCase):
         np.testing.assert_allclose(f_drawn, f_check, err_msg='drawn prior functions not as expected') 
     
     
-    def test_log_marginal_likelihood(self):    
-        self.assertEqual(round(self.gpr_model_large_var.log_marginal_likelihood(), 4), -7.5071, 'value of log marginal likelihood incorrect')
+    def test_calc_log_marginal_likelihood(self):    
+        self.assertEqual(round(self.gpr_model_large_var.calc_log_marginal_likelihood(), 4), -7.5071, 'value of log marginal likelihood incorrect')
                
        
     def test_tune_hyperparameters(self):
