@@ -7,7 +7,7 @@ Each post comes with a dedicated folder that contains the notebook on which the
 post is based and often additional content as well.
 
 So far, we have covered the following topics:
- 1. [*Hyperparameter tuning via Maximum Likelihood estimation for Gaussian process regression*](https://chrishoffmann.ai/post/hypparam_tuning_for_gp_regression/)
+ 1. [*Hyperparameter tuning via Maximum Likelihood estimation for Gaussian process regression*](https://github.com/chris-hoffmann/blog_posts/tree/master/1_hyperparameter_tuning_for_gaussian_process_regression)
 
 
 
