@@ -7,7 +7,7 @@ Namely, we provide:
 - source code for the python package ```gp_regression```—a simple object-oriented implementation
 of Gaussian Process regression that is used throughout the post.
 
-  The package provides functionality for:
+  ```gp_regression``` provides functionality for:
   - hyperparameter tuning
   - sampling from the prior or posterior distribution
   - performing predictions for unknown outputs
