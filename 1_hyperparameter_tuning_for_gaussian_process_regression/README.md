@@ -1,6 +1,6 @@
 # Blog post: *Hyperparameter tuning via Maximum Likelihood estimation for Gaussian process regression*
 
-Here, you find supplementary material accomapanying the blog post [*Hyperparameter tuning via Maximum Likelihood estimation for Gaussian process regression*](https://chrishoffmann.ai/post/hypparam_tuning_for_gp_regression), which was published on my personal website. 
+Here, you find supplementary material accompanying  the blog post [*Hyperparameter tuning via Maximum Likelihood estimation for Gaussian process regression*](https://chrishoffmann.ai/post/hypparam_tuning_for_gp_regression), which was published on my personal website. 
 
 Namely, we provide:
 - the Jupyter notebook `notebook.ipynb` that the post is based on.
